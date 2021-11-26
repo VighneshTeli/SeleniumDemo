@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestNG.titleDisplayed">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateRecord"/>
+          <include name="tearDown"/>
+          <include name="recordDisplay"/>
+        </methods>
+      </class> <!-- TestNG.titleDisplayed -->
+      <class name="TestNG.TestNGDemo">
+        <methods>
+          <include name="DoingConfiguration"/>
+          <include name="validateLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestNG.TestNGDemo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="Assignment(failed)">
+    <classes>
+      <class name="TestNG.titleDisplayed">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateRecord"/>
+          <include name="tearDown"/>
+          <include name="recordDisplay"/>
+        </methods>
+      </class> <!-- TestNG.titleDisplayed -->
+    </classes>
+  </test> <!-- Assignment(failed) -->
+</suite> <!-- Failed suite [Suite] -->
